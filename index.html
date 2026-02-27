@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samgau Space</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f4f7f9; padding: 40px 20px; }
-        .container { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); display: inline-block; max-width: 400px; width: 100%; }
-        h1 { color: #1a73e8; margin-bottom: 25px; }
-        .button { display: block; margin: 15px auto; padding: 18px; text-decoration: none; color: white; border-radius: 12px; font-weight: bold; font-size: 18px; }
-        .video-btn { background-color: #ea4335; }
-        .pdf-btn { background-color: #1a73e8; }
-        .bot-btn { background-color: #34a853; }
+        body { font-family: -apple-system, sans-serif; text-align: center; background-color: #f8f9fa; padding: 50px 20px; color: #202124; }
+        .card { background: white; padding: 40px 20px; border-radius: 30px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); display: inline-block; max-width: 450px; width: 100%; }
+        h1 { color: #1a73e8; font-size: 32px; margin-bottom: 30px; }
+        .btn { display: block; margin: 15px auto; padding: 20px; text-decoration: none; color: white; border-radius: 18px; font-weight: bold; font-size: 20px; transition: 0.3s; }
+        
+        .v-btn { background: #ea4335; } /* Красный */
+        .p-btn { background: #1a73e8; } /* Синий */
+        .t-btn { background: #34a853; } /* Зеленый */
+        
+        .btn:active { transform: scale(0.95); opacity: 0.8; }
+        p { color: #5f6368; margin-top: 20px; font-size: 14px; }
     </style>
 </head>
 <body>
-    <div class="container">
+
+    <div class="card">
         <h1>🚀 Samgau Space</h1>
+
+        <a href="video.mov" target="_blank" class="btn v-btn">🎥 Смотреть видео</a>
+
+        <a href="https://docs.google.com/viewer?url=https://aishapaid739-beep.github.io/Samgau-Space-project-/prez.pdf" target="_blank" class="btn p-btn">📄 Презентация проекта</a>
+
+        <a href="https://t.me/Samgau_ai_bot" target="_blank" class="btn t-btn">🤖 Наш Telegram бот</a>
         
-        <a href="https://aishapaid739-beep.github.io/Samgau-Space-project-/video.mov" target="_blank" class="button video-btn">📺 Посмотреть видео</a>
-
-        <a href="https://aishapaid739-beep.github.io/Samgau-Space-project-/prez.pdf" target="_blank" class="button pdf-btn">📄 Презентация проекта</a>
-
-        <a href="https://t.me/Samgau_ai_bot" target="_blank" class="button bot-btn">🤖 Telegram бот</a>
+        <p>Если видео не открывается, попробуйте открыть страницу через iPhone или Safari.</p>
     </div>
+
 </body>
 </html>
