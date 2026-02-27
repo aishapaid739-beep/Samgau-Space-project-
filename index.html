@@ -1,28 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samgau Space</title>
+    <title>Samgau Space Project</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f4f7f9; padding: 40px 20px; }
-        .container { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); display: inline-block; max-width: 400px; width: 100%; }
-        h1 { color: #1a73e8; margin-bottom: 25px; }
-        .button { display: block; margin: 15px auto; padding: 18px; text-decoration: none; color: white; border-radius: 12px; font-weight: bold; font-size: 18px; }
-        .video-btn { background-color: #ea4335; }
-        .pdf-btn { background-color: #1a73e8; }
-        .bot-btn { background-color: #34a853; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background-color: #f0f2f5; padding: 40px 20px; }
+        .container { background: white; padding: 35px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: inline-block; max-width: 400px; width: 100%; }
+        h1 { color: #1a73e8; margin-bottom: 5px; font-size: 26px; }
+        p { color: #5f6368; margin-bottom: 30px; }
+        .button { display: flex; align-items: center; justify-content: center; margin: 12px auto; padding: 18px; text-decoration: none; color: white; border-radius: 15px; font-weight: bold; font-size: 17px; transition: 0.3s; }
+        
+        .video-btn { background: #ea4335; } /* Красная */
+        .pdf-btn { background: #1a73e8; }   /* Синяя */
+        .doc-btn { background: #fbbc05; color: #3c4043; } /* Желтая */
+        .bot-btn { background: #34a853; }   /* Зеленая */
+        
+        .button:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); opacity: 0.9; }
+        .button:active { transform: translateY(0); }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>🚀 Samgau Space</h1>
-        
-        <a href="https://drive.google.com/file/d/1wDdfbldRBEDL6JOKIldYHpUD6XEEsIPa/view?usp=drivesdk" target="_blank" class="button video-btn">📺 Посмотреть видео</a>
+        <p>Инновационный космический проект</p>
+
+        <a href="https://drive.google.com/file/d/1wDdfbldRBEDL6JOKIldYHpUD6XEEsIPa/view?usp=drivesdk" target="_blank" class="button video-btn">🎥 Посмотреть видео</a>
 
         <a href="https://drive.google.com/file/d/118pco9qUrCO_fSHK1XkK9Gqs7Ksh0BnT/view?usp=drivesdk" target="_blank" class="button pdf-btn">📄 Презентация проекта</a>
 
-        <a href="https://t.me/Samgau_ai_bot" target="_blank" class="button bot-btn">🤖 Telegram бот</a>
+        <a href="https://docs.google.com/document/d/1S9QbQ8AlyMHM6lCLuGh1CRGCpuIhaKFl/edit?usp=drivesdk&ouid=117068806002459250910&rtpof=true&sd=true_" target="_blank" class="button doc-btn">📎 Доп. материалы</a>
+
+        <a href="https://t.me/Samgau_ai_bot" target="_blank" class="button bot-btn">🤖 Наш Telegram бот</a>
     </div>
+
 </body>
 </html>
